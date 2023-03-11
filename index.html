@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css"
+      integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form class="pure-form pure-form-aligned">
+      <fieldset>
+        <div class="pure-control-group">
+          <label for="aligned-name">Username</label>
+          <input type="text" id="aligned-name" placeholder="Username" />
+        </div>
+        <div class="pure-control-group">
+          <label for="aligned-email">Email Address</label>
+          <input type="email" id="aligned-email" placeholder="Email Address" />
+        </div>
+        <div class="pure-control-group">
+          <label for="aligned-password">Password</label>
+          <input type="password" id="aligned-password" placeholder="Password" />
+        </div>
+        <div class="form-submit-btn">
+          <label for="aligned-cb" class="pure-checkbox">
+            <input type="checkbox" id="aligned-cb" /> I&#x27;ve read the terms
+            and conditions
+          </label>
+          <div class="btn-container">
+            <div class="movingBtn">
+              <img src="./assets/idle.gif" />
+              <button type="submit" class="pure-button pure-button-primary">
+                Submit
+              </button>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+    <script src="script.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+  </body>
+</html>
